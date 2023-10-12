@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
         {/* <video src='' autoPlay loop muted /> */}
-        <h1>ADVENTURE AWAITS</h1>
+        <h1>Pottery, Metal Yard Art, Talavera, Imports</h1>
         <p>What are you waiting for?</p>
         <div className='hero-btns'>
             <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>

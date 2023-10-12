@@ -1,6 +1,8 @@
 import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css'
+import Pottery from './images/pottery.jpg'
+import WoodArt from './images/wood-art.jpg'
 
 function Cards() {
   return (
@@ -9,9 +11,9 @@ function Cards() {
         <div className='cards__container'>
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
-                    <CardItem src='/public/images/pottery.jpg' text='Explore our inventory of varies Mexican Pottery' label="Pottery Inventory" path='/pottery-inventory' />
-                    <CardItem src='images/.jpg' text='Explore our inventory of varies Metal Art Work' label="Metal Inventory" path='/metal-inventory' />
-                    <CardItem src='images/wood-art.jpg' text='Explore our inventory of varies Knick Knacks' label="Knick-Knacks Inventory" path='/wood-inventory' />
+                    <CardItem text='Explore our Mexican Pottery inventory' label="Pottery Inventory" imgsrc={Pottery} path='./pages/pottery' />
+                    <CardItem text='Explore our Metal Art Work inventory' label="Metal Inventory" imgsrc={Pottery} />
+                    <CardItem text='Explore our Knick Knacks inventory' label="Knick-Knacks Inventory" imgsrc={WoodArt} />
                 </ul>
             </div>
         </div>
