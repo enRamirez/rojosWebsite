@@ -11,7 +11,7 @@ function Cards() {
         <div className='cards__container'>
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
-                    <CardItem text='Explore our Mexican Pottery inventory' label="Pottery Inventory" imgsrc={Pottery} path='./pages/pottery' />
+                    <CardItem text='Explore our Mexican Pottery inventory' label="Pottery Inventory" imgsrc={Pottery} path='./pottery' />
                     <CardItem text='Explore our Metal Art Work inventory' label="Metal Inventory" imgsrc={Pottery} />
                     <CardItem text='Explore our Knick Knacks inventory' label="Knick-Knacks Inventory" imgsrc={WoodArt} />
                 </ul>

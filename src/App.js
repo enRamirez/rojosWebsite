@@ -3,12 +3,12 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
-import Inventory from './components/pages/Inventory';
 import Contacts from './components/pages/Contacts';
 import SignUp from './components/pages/SignUp';
-import PotteryInv from './components/pages/PotteryInv'
-import MetalInv from './components/pages/MetalInv'
-import WoodInv from './components/pages/WoodInv'
+import { Cart } from './components/pages/cart/Cart'
+import PotteryInv from './components/pages/inventory/Pottery/PotteryInv'
+import MetalInv from './components/pages/inventory/Metal/MetalInv'
+import WoodInv from './components/pages/inventory/Wood/WoodInv'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Routes>
         {/* element={<Home/>} */}
           <Route path='/' exact Component={Home} /> 
-          <Route path='/inventory' Component={Inventory} /> 
+          <Route path='/cart' Component={Cart} /> 
           <Route path='/contacts' Component={Contacts} /> 
           <Route path='/sign-up' Component={SignUp} /> 
           <Route path='/pottery' Component={PotteryInv} /> 

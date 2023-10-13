@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from './Button';
+import { ShoppingCart } from 'phosphor-react';
 import './Navbar.css'
 
 function Navbar() {
@@ -40,11 +41,11 @@ function Navbar() {
                         Home
                     </Link>
                 </li>
-                <li className='nav-item'>
+                {/* <li className='nav-item'>
                     <Link to='/inventory' className='nav-links' onClick={closeMobileMenu}>
-                        Inventory
+                    Inventory
                     </Link>
-                </li>
+                </li> */}
                 <li className='nav-item'>
                     <Link to='/contacts' className='nav-links' onClick={closeMobileMenu}>
                         Contacts
@@ -57,6 +58,11 @@ function Navbar() {
                 </li>
             </ul>
             {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                <li className='nav-item'>
+                    <Link to='/Cart'>
+                        <ShoppingCart size={40} color='white'/>
+                    </Link>
+                </li>
         </div>
     </nav>
     </>
