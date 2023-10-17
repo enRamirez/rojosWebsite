@@ -1,3 +1,4 @@
+import './product1.css'
 import pot1 from '../../../../assets/pot1.jpg'
 import pot2 from '../../../../assets/pot2.jpg'
 
