@@ -58,11 +58,11 @@ function Navbar() {
                 </li>
             </ul>
             {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
-                <li className='nav-item'>
+                {/* <li className='nav-item'>
                     <Link to='/Cart'>
                         <ShoppingCart size={40} color='white'/>
                     </Link>
-                </li>
+                </li> */}
         </div>
     </nav>
     </>

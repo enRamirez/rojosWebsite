@@ -1,10 +1,11 @@
 .potteryInventory {
-    margin-top: 100px;
+    margin-top: 30px;
+    margin-bottom: 100px;
     text-align: center;
     font-size: 40px;
 }
 
-.products {
+.products1 {
     width: 100%;
     height: auto;
     display: grid;
@@ -24,7 +25,7 @@
 }
 
 .product img{
-    width: 300px;
+    width: 250px;
 }
 
 .product .description {
