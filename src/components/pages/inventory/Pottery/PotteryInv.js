@@ -7,6 +7,7 @@ const PotteryInv = () => {
         <div>
           <div  className='potteryInventory'>
             <h1>Take A Look At Our Pottery</h1>
+            <h6>Sizes are in inches from height to weight</h6>
           </div>
           <div className='products1'>
             {PRODUCTS1.map((product1) => <Product1 data={product1} />)}
@@ -14,9 +15,7 @@ const PotteryInv = () => {
         </div>
       )
     }
-    
-    
+        
     
     
     export default PotteryInv
-
