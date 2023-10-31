@@ -37,9 +37,6 @@ import kk36 from '../../../../assets/panchitoSP1.jpg'
 import kk37 from '../../../../assets/panchitoSP2.jpg'
 import kk38 from '../../../../assets/panchitoSP3.jpg'
 import kk39 from '../../../../assets/panchitoSP4.jpg'
-import kk40 from '../../../../assets/pinkLizard.jpg'
-import kk41 from '../../../../assets/purpleLizard.jpg'
-import kk42 from '../../../../assets/tealLizard.jpg'
 import kk43 from '../../../../assets/roosterPlanter.jpg'
 import kk44 from '../../../../assets/turtlePlanter.jpg'
 import kk45 from '../../../../assets/woodApple.jpg'
@@ -119,6 +116,12 @@ export const PRODUCTS2 = [
       invImage: kk10,
     },
     {
+      id: 11,
+      type: 'Vibrant Talavera (8" x 9")',
+      price: 22.0,
+      invImage: kk11,
+    },
+    {
       id: 12,
       type: 'Vibrant Talavera (8" x 9")',
       price: 22.0,
@@ -177,6 +180,12 @@ export const PRODUCTS2 = [
       type: 'Vibrant Talavera (8" x 9")',
       price: 22.0,
       invImage: kk21,
+    },
+    {
+      id: 22,
+      type: 'Vibrant Talavera (8" x 9")',
+      price: 22.0,
+      invImage: kk22,
     },
     {
       id: 23,
