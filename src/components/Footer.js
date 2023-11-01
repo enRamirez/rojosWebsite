@@ -26,7 +26,9 @@ function Footer() {
             <div className='footer-link-wrapper'>
                 <div className='footer-link-items'>
                     <h2>Inventories</h2>
-                    <Link to='/'>Pottery</Link>
+                    <Link to='/pottery'>Pottery</Link>
+                    <Link to='/metal'>Metal</Link>
+                    <Link to='/knickknack'>Knick-knacks</Link>
                 </div>
             </div>
         </div>

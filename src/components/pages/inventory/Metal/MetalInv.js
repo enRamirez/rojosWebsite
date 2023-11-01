@@ -1,6 +1,7 @@
 import React from 'react'
-import { PRODUCTS3 } from './products2'
-import { Product3 } from './product2'
+import { PRODUCTS3 } from './products3'
+import { Product3 } from './product3'
+import Footer from '../../../Footer'
 
 const MetalInv = () => {
     return (
@@ -11,6 +12,7 @@ const MetalInv = () => {
           <div className='products3'>
             {PRODUCTS3.map((product3) => <Product3 data={product3} />)}
           </div>
+          <Footer/>
         </div>
       )
     }

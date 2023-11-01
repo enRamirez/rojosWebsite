@@ -10,11 +10,11 @@ function HeroSection() {
         <h1>Pottery, Metal Yard Art, Talavera, Imports</h1>
         <p>What are you waiting for?</p>
         <div className='hero-btns'>
-            <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
+            {/* <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
                 GET STARTED
-            </Button>
+            </Button> */}
             <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-                Watch Trailer <i className='far fa-play-circle' />
+                Take a Look <i className='far fa-play-circle' />
             </Button>
         </div>
     </div>

@@ -37,22 +37,22 @@ import kk36 from '../../../../assets/panchitoSP1.jpg'
 import kk37 from '../../../../assets/panchitoSP2.jpg'
 import kk38 from '../../../../assets/panchitoSP3.jpg'
 import kk39 from '../../../../assets/panchitoSP4.jpg'
-import kk43 from '../../../../assets/roosterPlanter.jpg'
-import kk44 from '../../../../assets/turtlePlanter.jpg'
-import kk45 from '../../../../assets/woodApple.jpg'
-import kk46 from '../../../../assets/woodBear.jpg'
-import kk47 from '../../../../assets/woodBulldog.jpg'
-import kk48 from '../../../../assets/woodButterfly.jpg'
-import kk49 from '../../../../assets/woodDuck.jpg'
-import kk50 from '../../../../assets/woodEagle.jpg'
-import kk51 from '../../../../assets/woodEagle2.jpg'
-import kk52 from '../../../../assets/woodElephant.jpg'
-import kk53 from '../../../../assets/woodFish.jpg'
-import kk54 from '../../../../assets/woodLab.jpg'
-import kk55 from '../../../../assets/woodRooster.jpg'
-import kk56 from '../../../../assets/woodSunflower.jpg'
-import kk57 from '../../../../assets/woodTurtle.jpg'
-import kk58 from '../../../../assets/craneChime.jpg'
+import kk40 from '../../../../assets/roosterPlanter.jpg'
+import kk41 from '../../../../assets/turtlePlanter.jpg'
+import kk42 from '../../../../assets/woodApple.jpg'
+import kk43 from '../../../../assets/woodBear.jpg'
+import kk44 from '../../../../assets/woodBulldog.jpg'
+import kk45 from '../../../../assets/woodButterfly.jpg'
+import kk46 from '../../../../assets/woodDuck.jpg'
+import kk47 from '../../../../assets/woodEagle.jpg'
+import kk48 from '../../../../assets/woodEagle2.jpg'
+import kk49 from '../../../../assets/woodElephant.jpg'
+import kk50 from '../../../../assets/woodFish.jpg'
+import kk51 from '../../../../assets/woodLab.jpg'
+import kk52 from '../../../../assets/woodRooster.jpg'
+import kk53 from '../../../../assets/woodSunflower.jpg'
+import kk54 from '../../../../assets/woodTurtle.jpg'
+import kk55 from '../../../../assets/craneChime.jpg'
 
 export const PRODUCTS2 = [
     {
@@ -384,23 +384,5 @@ export const PRODUCTS2 = [
       type: 'Vibrant Talavera (8" x 9")',
       price: 22.0,
       invImage: kk55,
-    },
-    {
-      id: 56,
-      type: 'Vibrant Talavera (8" x 9")',
-      price: 22.0,
-      invImage: kk56,
-    },
-    {
-      id: 57,
-      type: 'Vibrant Talavera (8" x 9")',
-      price: 22.0,
-      invImage: kk57,
-    },
-    {
-      id: 58,
-      type: 'Vibrant Talavera (8" x 9")',
-      price: 22.0,
-      invImage: kk58,
     },
 ]

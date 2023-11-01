@@ -18,28 +18,28 @@ import metal17 from '../../../../assets/metalCrane.jpg'
 import metal18 from '../../../../assets/metalDog.jpg'
 import metal19 from '../../../../assets/metalFlag.jpg'
 import metal20 from '../../../../assets/metalFlamingo.jpg'
-import metal22 from '../../../../assets/metalFlower.jpg'
-import metal23 from '../../../../assets/metalRooster.jpg'
-import metal24 from '../../../../assets/metalSeahorse.jpg'
-import metal25 from '../../../../assets/metalStar.jpg'
-import metal26 from '../../../../assets/metalStar2.jpg'
-import metal27 from '../../../../assets/metalSunflower.jpg'
-import metal28 from '../../../../assets/metalSwan.jpg'
-import metal29 from '../../../../assets/redWind.jpg'
-import metal30 from '../../../../assets/greenWind.jpg'
-import metal31 from '../../../../assets/yellowWind.jpg'
-import metal32 from '../../../../assets/tealCactus.jpg'
-import metal33 from '../../../../assets/dotWind.jpg'
-import metal34 from '../../../../assets/swirlWind.jpg'
-import metal35 from '../../../../assets/sol.jpg'
-import metal36 from '../../../../assets/solYluna.jpg'
-import metal37 from '../../../../assets/tealLizard.jpg'
-import metal38 from '../../../../assets/pinkLizard.jpg'
-import metal39 from '../../../../assets/purpleLizard.jpg'
-import metal40 from '../../../../assets/texasStar.jpg'
+import metal21 from '../../../../assets/metalFlower.jpg'
+import metal22 from '../../../../assets/metalRooster.jpg'
+import metal23 from '../../../../assets/metalSeahorse.jpg'
+import metal24 from '../../../../assets/metalStar.jpg'
+import metal25 from '../../../../assets/metalStar2.jpg'
+import metal26 from '../../../../assets/metalSunflower.jpg'
+import metal27 from '../../../../assets/metalSwan.jpg'
+import metal28 from '../../../../assets/redWind.jpg'
+import metal29 from '../../../../assets/greenWind.jpg'
+import metal30 from '../../../../assets/yellowWind.jpg'
+import metal31 from '../../../../assets/tealCactus.jpg'
+import metal32 from '../../../../assets/dotWind.jpg'
+import metal33 from '../../../../assets/swirlWind.jpg'
+import metal34 from '../../../../assets/sol.jpg'
+import metal35 from '../../../../assets/solYluna.jpg'
+import metal36 from '../../../../assets/tealLizard.jpg'
+import metal37 from '../../../../assets/pinkLizard.jpg'
+import metal38 from '../../../../assets/purpleLizard.jpg'
+import metal39 from '../../../../assets/texasStar.jpg'
 
 
-export const PRODUCT3 = [
+export const PRODUCTS3 = [
     {
         id: 1,
         type: 'Vibrant Talavera (8" x 9")',
@@ -273,11 +273,5 @@ export const PRODUCT3 = [
         type: 'Vibrant Talavera (8" x 9")',
         price: 22.0,
         invImage: metal39,
-    },
-    {
-        id: 40,
-        type: 'Vibrant Talavera (8" x 9")',
-        price: 22.0,
-        invImage: metal40,
     },
 ]

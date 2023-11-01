@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
 import Contacts from './components/pages/Contacts';
-import SignUp from './components/pages/SignUp';
-import { Cart } from './components/pages/cart/Cart'
+// import SignUp from './components/pages/SignUp';
+// import { Cart } from './components/pages/cart/Cart'
 import PotteryInv from './components/pages/inventory/Pottery/PotteryInv'
 import MetalInv from './components/pages/inventory/Metal/MetalInv'
 import KnickKnackInv from './components/pages/inventory/Knickknack/KnickKnackInv'

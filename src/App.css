@@ -10,10 +10,22 @@
 .contacts,
 .sign-up {
   display: flex;
-  height: 90vh;
+  height: 40vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+}
+
+.location, 
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.phone {
+  margin-bottom: 100px;
 }
 
 .inventory {
@@ -30,7 +42,7 @@
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #000000;
   font-size: 100px;
 }
 
