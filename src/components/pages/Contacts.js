@@ -1,14 +1,18 @@
 import React from 'react'
 import '../../App.css'
 import Footer from '../Footer'
-import Front from '../../assets/frontCard.jpg'
-import Back from '../../assets/backCard.jpg'
+import Front from '../images/frontCard.jpg'
+import Back from '../images/backCard.jpg'
 
 export default function Contacts() {
     return (
         <>
             <div>
                 <h1 className='contacts'>CONTACTS</h1>
+            </div>
+            <div className='image'>
+                <img src={Front} alt='Bussiness Card' />
+                <img src={Back} alt='Bussiness Card' />
             </div>
             <div>
                 <p className='location'>Address: 6802 E US HWY 84, Gatesville, Tx 76528</p>

@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { PRODUCTS1 } from './products1'
 import { Product1 } from './product1'
 import Footer from '../../../Footer'
 
 const PotteryInv = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
     return (
         <div>
           <div  className='potteryInventory'>
