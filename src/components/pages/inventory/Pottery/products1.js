@@ -71,7 +71,7 @@ export const PRODUCTS1 = [
   },
   {
     id:8,
-    type: 'Angled Clay Planter (14" x 14")',
+    type: 'Cubana w/ Metal Base (14" x 14")',
     price: 35.0,
     invImage: pot8,
   },
