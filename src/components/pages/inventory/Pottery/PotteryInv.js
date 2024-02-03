@@ -9,6 +9,10 @@ const PotteryInv = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const addToCart = (item) => {
+    console.log('Adding to cart:', item);
+  };
+
     return (
         <div>
           <div  className='potteryInventory'>
@@ -16,7 +20,7 @@ const PotteryInv = () => {
             <h6>Sizes are in inches from height to weight</h6>
           </div>
           <div className='products1'>
-            {PRODUCTS1.map((product1) => <Product1 data={product1} />)}
+            {PRODUCTS1.map((product1) => <Product1 data={product1} addToCart={addToCart}/>)}
           </div>
           <Footer/>
         </div>
